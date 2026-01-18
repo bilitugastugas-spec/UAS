@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kuis Online Sejarah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Kuis Online Sejarah Indonesia</h1>
+
+    <form id="quizForm">
+
+        <div class="question">
+            <p>1. Proklamasi Kemerdekaan Indonesia dilaksanakan pada tanggal?</p>
+            <label><input type="radio" name="q1" value="a"> 16 Agustus 1945</label>
+            <label><input type="radio" name="q1" value="b"> 17 Agustus 1945</label>
+            <label><input type="radio" name="q1" value="c"> 18 Agustus 1945</label>
+            <label><input type="radio" name="q1" value="d"> 19 Agustus 1945</label>
+        </div>
+
+        <div class="question">
+            <p>2. Tokoh yang membacakan teks Proklamasi adalah?</p>
+            <label><input type="radio" name="q2" value="a"> Mohammad Hatta</label>
+            <label><input type="radio" name="q2" value="b"> Jenderal Soedirman</label>
+            <label><input type="radio" name="q2" value="c"> Ir. Soekarno</label>
+            <label><input type="radio" name="q2" value="d"> Ahmad Yani</label>
+        </div>
+
+        <div class="question">
+            <p>3. Penjajahan Jepang di Indonesia berlangsung pada tahun?</p>
+            <label><input type="radio" name="q3" value="a"> 1939–1942</label>
+            <label><input type="radio" name="q3" value="b"> 1940–1945</label>
+            <label><input type="radio" name="q3" value="c"> 1942–1945</label>
+            <label><input type="radio" name="q3" value="d"> 1945–1949</label>
+        </div>
+
+        <div class="question">
+            <p>4. Kerajaan Hindu tertua di Indonesia adalah?</p>
+            <label><input type="radio" name="q4" value="a"> Sriwijaya</label>
+            <label><input type="radio" name="q4" value="b"> Majapahit</label>
+            <label><input type="radio" name="q4" value="c"> Kutai</label>
+            <label><input type="radio" name="q4" value="d"> Mataram Kuno</label>
+        </div>
+
+        <div class="question">
+            <p>5. Sumpah Pemuda diikrarkan pada tahun?</p>
+            <label><input type="radio" name="q5" value="a"> 1926</label>
+            <label><input type="radio" name="q5" value="b"> 1927</label>
+            <label><input type="radio" name="q5" value="c"> 1928</label>
+            <label><input type="radio" name="q5" value="d"> 1930</label>
+        </div>
+
+        <button type="button" onclick="cekJawaban()">Submit</button>
+        <button type="button" onclick="resetKuis()">Ulangi Kuis</button>
+    </form>
+
+    <div id="hasil"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
